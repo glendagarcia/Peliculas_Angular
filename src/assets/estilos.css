@@ -1,0 +1,51 @@
+#contenido {
+
+    margin-left: 4%;
+    margin-top: 2%;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px #ccc;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#nav {
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+}
+#header nav{
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+}
+
+#header{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin: 0px;
+    height: 90px;
+    line-height: 90px;
+}
+#header h1{
+    line-height: 85px;
+    display: block;
+    font-size: 35px;
+}
+#nav ul{
+    margin: 0px;
+    list-style: none;
+    padding-left: 10px;
+}
+#nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+#nav ul li a{
+    display: block;
+    color: black;
+    height: 30px;
+    line-height: 39px;
+}
